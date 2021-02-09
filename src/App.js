@@ -14,7 +14,7 @@ const App = () => {
               from="propose/"
               to="/"
             />
-          <CrushPage path="propose/:name" />
+          <CrushPage path="/propose/:name" />
         </Router>
         <Footer/>
     </div>
