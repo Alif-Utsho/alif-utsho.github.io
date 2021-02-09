@@ -1,5 +1,7 @@
-import { useParams } from '@reach/router'
+import { useParams } from 'react-router-dom'
 import React from 'react'
+
+import Namegenerate from './namegenerate'
 
 class CrushPage extends React.Component{
     state = {
@@ -37,9 +39,7 @@ class CrushPage extends React.Component{
             <>
                 <section id="crushPage" className=" align-items-center">
                     <main id="main">
-                        <h2 className="title display-2 mb-4">
-                            {this.props.name ? this.props.name : 'Sizukaa'}
-                        </h2>
+                        <Namegenerate/>
                         <div className={this.state.class}>
                             <i className="fas fa-quote-left"></i>
                             <p className="txt fw-bold">

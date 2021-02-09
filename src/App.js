@@ -2,21 +2,34 @@ import './App.css';
 
 import Submit from './components/submit-page/submit'
 import CrushPage from './components/view-page/crush-page'
-import { Redirect, Router } from '@reach/router'
+import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 import Footer from './components/footer'
 
 const App = () => {
   return (
     <div>
-        <Router>
-          <Submit path="/" />
-          <CrushPage path="/:name" />
-        </Router>
-        <Footer/>
+      <Router>
+          {/* <Submit to="/" />
+          <CrushPage to="/:name" /> */}
+          
+        <Switch>
+          
+          <Route exact path="/">
+            <Submit/>
+          </Route> 
+          
+          <Route path="/:name">
+            <CrushPage/>
+          </Route>
+        </Switch>  
+        
+          
+      </Router>
+      <Footer/>
     </div>
   );
 }
 
-// https://alif-utsho.github.io/propose
+// https://alif-utsho.github.io/propose 
 
 export default App;

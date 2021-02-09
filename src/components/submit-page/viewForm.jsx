@@ -13,7 +13,7 @@ class ViewForm extends React.Component {
     changeHandler = event => {
         this.setState({
             name: event.target.value,
-            link: 'https://alif-utsho.github.io/propose/' + event.target.value
+            link: 'https://alif-utsho.github.io/#/' + event.target.value
         })
     }
 

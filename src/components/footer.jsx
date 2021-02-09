@@ -11,23 +11,23 @@ const Footer = () => {
                         </p>
                     <li className="list-inline-item  mb-sm-0">
                         <a className="btn btn-icon btn-sm btn-ghost-secondary rounded-circle" href="https://www.facebook.com/utsho.aiub">
-                            <i className="fab fa-facebook-f"></i>
+                            <i className="fab fa-facebook-f fs-5"></i>
                         </a>
                     </li>
                     
                     <li className="list-inline-item  mb-sm-0">
                         <a className="btn btn-icon btn-sm btn-ghost-secondary rounded-circle" href="https://github.com/Alif-Utsho">
-                            <i className="fab fa-github"></i>
+                            <i className="fab fa-github fs-5"></i>
                         </a>
                     </li>
                     <li className="list-inline-item  mb-sm-0">
                         <a className="btn btn-icon btn-sm btn-ghost-secondary rounded-circle" href="https://www.instagram.com/alif_utsho/">
-                            <i className="fab fa-instagram"></i>
+                            <i className="fab fa-instagram fs-5"></i>
                         </a>
                     </li>
                     <li className="list-inline-item  mb-sm-0">
                         <a className="btn btn-icon btn-sm btn-ghost-secondary rounded-circle" href="https://www.linkedin.com/in/md-shahoriar-alif-utsho-014ba817a/">
-                            <i className="fab fa-linkedin"></i>
+                            <i className="fab fa-linkedin fs-5"></i>
                         </a>
                     </li>
                 </ul>
