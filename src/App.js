@@ -15,10 +15,6 @@ const App = () => {
               to="/"
             />
           <CrushPage path="propose/:name" />
-            <Redirect
-              from="propose/:name"
-              to="/:name"
-            />
         </Router>
         <Footer/>
     </div>
