@@ -9,16 +9,16 @@ const App = () => {
   return (
     <div>
         <Router>
-        <Submit path="propose/" />
-        <Redirect
-          from="propose/"
-          to="/"
-        />
-        <CrushPage path="propose/:name" />
-        <Redirect
-          from="propose/:name"
-          to="/:name"
-        />
+          <Submit path="propose/" />
+            <Redirect
+              from="propose/"
+              to="/"
+            />
+          <CrushPage path="propose/:name" />
+            <Redirect
+              from="propose/:name"
+              to="/:name"
+            />
         </Router>
         <Footer/>
     </div>
