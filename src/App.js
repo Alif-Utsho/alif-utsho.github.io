@@ -9,12 +9,8 @@ const App = () => {
   return (
     <div>
         <Router>
-          <Submit path="propose/" />
-            <Redirect
-              from="propose/"
-              to="/"
-            />
-          <CrushPage path="/propose/:name" />
+          <Submit path="/" />
+          <CrushPage path="/:name" />
         </Router>
         <Footer/>
     </div>
