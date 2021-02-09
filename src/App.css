@@ -1,0 +1,246 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.propose{
+  color: #e43635;
+  text-shadow:2px 1px rgba(216, 56, 117, 0.671);
+}
+
+.button{
+  background-color: #e43635;
+  font-size: large;
+}
+
+.modal-color{
+  background-color: #e43635;
+  color: white;
+}
+.modal{
+  font-family: 'Bree Serif', serif;
+}
+
+#crushPage{
+  height: 720px;
+  background-color: #e43635;
+}
+
+
+#main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  padding: 3rem 0;
+  background: #e43635;
+}
+
+#main .title {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: cursive;
+  text-align: center;
+  width: 80%;
+}
+
+#main .txt{
+  font-family: sans-serif;
+}
+
+#main .content {
+  background: #fff;
+  padding: 4rem 2rem;
+  width: 50rem;
+  text-align: center;
+  border-radius: 2rem;
+  margin-bottom: 3rem;
+  -webkit-box-shadow: 0px 0.5rem 2rem rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0.5rem 2rem rgba(0, 0, 0, 0.3);
+}
+
+#main .content i {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+#main .content p {
+  font-size: 2rem;
+  width: 90%;
+  margin: auto;
+}
+
+#main .content-anim {
+  -webkit-animation: contentLoad 0.5s ease-out !important;
+          animation: contentLoad 0.5s ease-out !important;
+}
+
+#main .next-btn {
+  background: #fff;
+  color: #e43635;
+  font-size: 3rem;
+  border: none;
+  padding: 1rem 1.5rem 0.6rem 1.5rem;
+  border-radius: 50%;
+  outline-style: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-animation: btnAnimatiom 1s ease-out infinite;
+          animation: btnAnimatiom 1s ease-out infinite;
+}
+
+#main .next-btn:hover {
+  background: #e43635;
+  color: #ffff;
+}
+
+#main .next-btn:active {
+  color: #fff;
+}
+
+
+@-webkit-keyframes btnAnimatiom {
+  0% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+}
+
+@keyframes btnAnimatiom {
+  0% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+}
+
+@-webkit-keyframes contentLoad {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes contentLoad {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@media (max-width: 1310px) {
+  #header .item-2 {
+    width: 40rem !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  #header .title {
+    font-size: 4rem !important;
+  }
+}
+
+@media (max-width: 1050px) {
+  html {
+    font-size: 55.5%;
+  }
+}
+
+@media (max-width: 930px) {
+  html {
+    font-size: 50.5%;
+  }
+  #header .title {
+    font-size: 3rem !important;
+  }
+  #header .subtitle {
+    font-size: 1.8rem !important;
+  }
+  #header .item-2 {
+    width: 30rem !important;
+  }
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 55.5%;
+  }
+  #header .header-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  #header .header-box .item-2 {
+    width: 80% !important;
+    margin-bottom: 5rem !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .content {
+    width: 90% !important;
+  }
+}
+
+footer i{
+  color:#e43635
+}
+
+.underline{
+  text-decoration: none;
+  color:rgba(0, 0, 0, 0.87)
+}
+.underline:hover{
+  text-decoration: underline;
+}
