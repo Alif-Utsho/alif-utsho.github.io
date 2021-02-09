@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div>
         <Router>
-          <Submit path="/utsho" />
+          <Submit path="/" />
           <Submit path="/propose"/>
           <CrushPage path="/propose/:name" />
         </Router>
